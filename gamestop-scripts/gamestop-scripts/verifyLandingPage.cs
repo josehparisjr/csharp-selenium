@@ -17,6 +17,7 @@ namespace gamestop_scripts
         [Test]
         public void siteHeaderIsDisplayed()
         {
+            //testing
             IWebDriver browser = new ChromeDriver();
             browser.Navigate().GoToUrl("http://gamestop.com");
             IWebElement header = browser.FindElement(By.Id("Img1"));
